@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.top {
+    height: 88px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    background: repeating-linear-gradient(to bottom , #6cacff , #6cacff);
+    background-size: 600px;
+    display: flex;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    margin-left: 50px;
+    font-weight: 500;
+    user-select: none;
+}
+.navigation a:hover{
+    text-decoration: underline #fff 1.7px;
+}
+.btn_logout {
+    width: 120px;
+    color: #fff;
+    font-size: 1.2em;
+    margin-left: 50px;
+    height: 47px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    user-select: none;
+}
+.btn_logout:hover{
+    transition: .5s;
+    background: #fff;
+    color: black;
+}
+
+/* mn hnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+button {
+    cursor: pointer;
+}
+.a3btn button{
+    border: 1px solid gray;
+}
+
+.group{
+    position:relative;
+}
+.group label{
+    padding:0 0.2em;
+    position:absolute;
+    top:-1em;
+    left:1em;
+    background-color:white;
+}
+  
+.group input{
+    padding:0.8em;
+    width: 200px;
+    height: 35px;
+    border-radius: 0.2em;
+    border: 1px solid black;
+    outline:none;
+}
+.bar {
+    position:relative;
+}
+.bar label{
+    padding:0 0.2em;
+    position:absolute;
+    top:-1em;
+    left:1em;
+    background-color:white;
+}
+.bar input{
+    padding:0.8em;
+    width: 200px;
+    height: 35px;
+    border-radius: 0.2em;
+    border: 1px solid black;
+    outline:none;
+}
+.bar label .ville{ 
+    padding:0 0.2em;
+    position:absolute;
+    top:-1em;
+    left:1em;
+    background-color:white;
+}
+  
+.bar input .villei{
+    padding:0.8em;
+    width: 200px;
+    height: 35px;
+    border-radius: 0.2em;
+    border: 1px solid black;
+    outline:none;
+}
+
+.pgclient {
+    width: 530px;
+    height: 560px;
+    position: relative;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 0.8em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 30%;
+    margin-top: -19%;
+    transform: scale(0);
+}
+.pgclient.close {
+    transform: scale(1);
+}
+.icon_close {
+    position: absolute;
+    background: #162938;
+    color: #fff;
+    top: 0%;
+    right: 0%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 0 10px;
+    cursor: pointer;
+}
+.midle.new {
+    transform: scale(0);
+}
+.midle.newh {
+    transform: scale(0);
+}
+.home {
+    /* transform: scale(0); */
+    margin-top: -550px;
+    width: 80%;
+    margin-left: 90px;
+}
+.home.newh {
+    transform: scale(1);
+}
+.home p {
+    margin-bottom: 25px;
+}
+.fonct .menu {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 60%;
+}
